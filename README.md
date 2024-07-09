@@ -68,3 +68,35 @@ npm install
 ```sh
 cp .env.sample .env
 ```
+
+## Configuration Setup
+
+To properly configure the application, you need to set up the `config.json` file located in the `src/config` folder. This file contains essential configuration settings for different environments (development, test, and production).
+
+Here is a sample of the data currently in the `src/config/config.json` file:
+
+```json
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "database_development",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
+```
