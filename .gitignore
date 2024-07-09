@@ -1,0 +1,6 @@
+.env
+bun.lockb
+package-lock.json
+combined.log
+
+node_modules/
