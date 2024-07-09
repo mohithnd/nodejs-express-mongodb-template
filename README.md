@@ -53,7 +53,7 @@ To get this Node.js Express application running on your local machine, follow th
 1. Clone the repository to your local machine:
 
 ```sh
-git clone https://your-repository-url.git
+git clone https://github.com/mohithnd/nodejs-express-starter-template
 cd nodejs-express-starter
 ```
 
