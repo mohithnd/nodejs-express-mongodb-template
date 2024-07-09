@@ -100,3 +100,9 @@ Here is a sample of the data currently in the `src/config/config.json` file:
   }
 }
 ```
+
+4. Initialize Sequelize which will create the `config.json` file, seeders folder, migrations folder, and models folder. This step also generates an `index.js` in the models folder with code for the database connection:
+
+```sh
+npx sequelize init
+```
