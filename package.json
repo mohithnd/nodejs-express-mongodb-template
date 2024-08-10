@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-express-starter-template",
+  "name": "nodejs-express-mysql-template",
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
